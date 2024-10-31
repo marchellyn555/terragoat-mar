@@ -1,13 +1,13 @@
 # TerraGoat - Vulnerable Terraform Infrastructure
 
 [![Maintained by Bridgecrew.io](https://img.shields.io/badge/maintained%20by-bridgecrew.io-blueviolet)](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
-[![Errors](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/general)](https://www.bridgecrew.cloud/incidents/?ALL_SEVERITY=true&Open=true&accounts=bridgecrewio%2Fterragoat&utm_source=github&utm_medium=badge&utm_campaign=terragoat)
-[![cis_azure](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_azure)](https://www.bridgecrew.cloud/incidents/?ALL_SEVERITY=true&Open=true&accounts=bridgecrewio%2Fterragoat&benchmarks=CIS+AZURE+V1.1&utm_source=github&utm_medium=badge&utm_campaign=terragoat)
-[![cis_gcp](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_gcp)](https://www.bridgecrew.cloud/incidents/?ALL_SEVERITY=true&Open=true&accounts=bridgecrewio%2Fterragoat&benchmarks=CIS+GCP+V1.1&utm_source=github&utm_medium=badge&utm_campaign=terragoat)
-[![cis_aws](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_aws)](https://www.bridgecrew.cloud/incidents/?ALL_SEVERITY=true&Open=true&accounts=bridgecrewio%2Fterragoat&benchmarks=CIS+AWS+V1.2&utm_source=github&utm_medium=badge&utm_campaign=terragoat)
-[![pci](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/pci)](https://www.bridgecrew.cloud/incidents/?ALL_SEVERITY=true&Open=true&accounts=bridgecrewio%2Fterragoat&benchmarks=PCI-DSS+V3.2&utm_source=github&utm_medium=badge&utm_campaign=terragoat)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=INFRASTRUCTURE+SECURITY)
+[![CIS Azure](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_azure)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=CIS+AZURE+V1.1)
+[![CIS GCP](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=CIS+GCP+V1.1)
+[![CIS AWS](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=CIS+AWS+V1.2)
+[![PCI](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=PCI-DSS+V3.2)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg) 
-[![slack-community](https://slack.bridgecrew.io/badge.svg)](https://slack.bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
+[![slack-community](https://img.shields.io/badge/Slack-4A154B?style=plastic&logo=slack&logoColor=white)](https://slack.bridgecrew.io/)
 
 
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
@@ -236,7 +236,7 @@ terraform destroy
 * [CfnGoat](https://github.com/bridgecrewio/cfngoat) - Vulnerable by design Cloudformation template
 * [TerraGoat](https://github.com/bridgecrewio/terragoat) - Vulnerable by design Terraform stack
 * [CDKGoat](https://github.com/bridgecrewio/cdkgoat) - Vulnerable by design CDK application
-
+* [kustomizegoat](https://github.com/bridgecrewio/kustomizegoat) - Vulnerable by design kustomize deployment
 ## Contributing
 
 Contribution is welcomed!
